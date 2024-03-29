@@ -1,0 +1,1085 @@
+CRITICAL - 2023-09-28 09:18:17 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+in SYSTEMPATH\Debug\Toolbar.php on line 420.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 420)
+ 2 SYSTEMPATH\Debug\Toolbar.php(420): strpos(null, '<head>')
+ 3 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 4 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 5 SYSTEMPATH\CodeIgniter.php(477): CodeIgniter\Filters\Filters->run('Wilayah', 'after')
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 09:19:34 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+in SYSTEMPATH\Debug\Toolbar.php on line 420.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 420)
+ 2 SYSTEMPATH\Debug\Toolbar.php(420): strpos(null, '<head>')
+ 3 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 4 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 5 SYSTEMPATH\CodeIgniter.php(477): CodeIgniter\Filters\Filters->run('Wilayah', 'after')
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 09:19:34 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+in SYSTEMPATH\Debug\Toolbar.php on line 420.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 420)
+ 2 SYSTEMPATH\Debug\Toolbar.php(420): strpos(null, '<head>')
+ 3 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 4 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 5 SYSTEMPATH\CodeIgniter.php(477): CodeIgniter\Filters\Filters->run('Wilayah', 'after')
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 09:19:35 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+in SYSTEMPATH\Debug\Toolbar.php on line 420.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 420)
+ 2 SYSTEMPATH\Debug\Toolbar.php(420): strpos(null, '<head>')
+ 3 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 4 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 5 SYSTEMPATH\CodeIgniter.php(477): CodeIgniter\Filters\Filters->run('Wilayah', 'after')
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 09:42:59 --> Undefined variable $agenda
+in APPPATH\Views\v_wilayah.php on line 35.
+ 1 APPPATH\Views\v_wilayah.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agenda', 'APPPATH\\Views\\v_wilayah.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_wilayah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_wilayah', [], true)
+ 5 APPPATH\Views\v_template_admin.php(303): view('v_wilayah')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Wilayah.php(25): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wilayah->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 09:43:08 --> Undefined array key "nama_kegiatan"
+in APPPATH\Views\v_wilayah.php on line 43.
+ 1 APPPATH\Views\v_wilayah.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kegiatan"', 'APPPATH\\Views\\v_wilayah.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_wilayah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_wilayah', [], true)
+ 5 APPPATH\Views\v_template_admin.php(303): view('v_wilayah')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Wilayah.php(25): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wilayah->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 09:43:44 --> Undefined variable $agenda
+in APPPATH\Views\v_wilayah.php on line 100.
+ 1 APPPATH\Views\v_wilayah.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agenda', 'APPPATH\\Views\\v_wilayah.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_wilayah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_wilayah', [], true)
+ 5 APPPATH\Views\v_template_admin.php(303): view('v_wilayah')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Wilayah.php(25): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wilayah->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 09:44:18 --> Undefined variable $agenda
+in APPPATH\Views\v_wilayah.php on line 98.
+ 1 APPPATH\Views\v_wilayah.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agenda', 'APPPATH\\Views\\v_wilayah.php', 98)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_wilayah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_wilayah', [], true)
+ 5 APPPATH\Views\v_template_admin.php(303): view('v_wilayah')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Wilayah.php(25): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wilayah->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 09:48:01 --> Undefined variable $agenda
+in APPPATH\Views\v_wilayah.php on line 99.
+ 1 APPPATH\Views\v_wilayah.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agenda', 'APPPATH\\Views\\v_wilayah.php', 99)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_wilayah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_wilayah', [], true)
+ 5 APPPATH\Views\v_template_admin.php(303): view('v_wilayah')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Wilayah.php(25): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wilayah->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 09:51:39 --> Undefined array key "id_agenda"
+in APPPATH\Views\v_wilayah.php on line 104.
+ 1 APPPATH\Views\v_wilayah.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_agenda"', 'APPPATH\\Views\\v_wilayah.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_wilayah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_wilayah', [], true)
+ 5 APPPATH\Views\v_template_admin.php(303): view('v_wilayah')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Wilayah.php(25): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wilayah->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 09:51:59 --> Undefined array key "nama_kegiatan"
+in APPPATH\Views\v_wilayah.php on line 117.
+ 1 APPPATH\Views\v_wilayah.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kegiatan"', 'APPPATH\\Views\\v_wilayah.php', 117)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_wilayah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_wilayah', [], true)
+ 5 APPPATH\Views\v_template_admin.php(303): view('v_wilayah')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Wilayah.php(25): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wilayah->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 10:04:01 --> Attempt to read property "jabatan" on array
+in APPPATH\Views\v_wilayah.php on line 129.
+ 1 APPPATH\Views\v_wilayah.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "jabatan" on array', 'APPPATH\\Views\\v_wilayah.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_wilayah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_wilayah', [], true)
+ 5 APPPATH\Views\v_template_admin.php(303): view('v_wilayah')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Wilayah.php(25): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wilayah->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 11:17:16 --> Class "App\Models\ModelKerukunan" not found
+in APPPATH\Controllers\Kerukunan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Kerukunan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 11:21:34 --> Class "App\Models\ModelKerukunan" not found
+in APPPATH\Controllers\Kerukunan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Kerukunan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 11:30:37 --> Class "App\Models\ModelKerukunan" not found
+in APPPATH\Controllers\Kerukunan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Kerukunan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 11:53:25 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+in SYSTEMPATH\Debug\Toolbar.php on line 420.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 420)
+ 2 SYSTEMPATH\Debug\Toolbar.php(420): strpos(null, '<head>')
+ 3 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 4 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 5 SYSTEMPATH\CodeIgniter.php(477): CodeIgniter\Filters\Filters->run('Thn', 'after')
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:01:43 --> Undefined array key "tahun_h"
+in APPPATH\Views\kerukunan\v_thn.php on line 97.
+ 1 APPPATH\Views\kerukunan\v_thn.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tahun_h"', 'APPPATH\\Views\\kerukunan\\v_thn.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_thn.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_thn', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_thn')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Thn.php(25): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Thn->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Thn))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:06:54 --> Undefined array key "tahun_h"
+in APPPATH\Views\kerukunan\v_kerukunan.php on line 23.
+ 1 APPPATH\Views\kerukunan\v_kerukunan.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tahun_h"', 'APPPATH\\Views\\kerukunan\\v_kerukunan.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(28): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:11:49 --> Undefined variable $tahun
+in APPPATH\Views\kerukunan\v_kerukunan.php on line 19.
+ 1 APPPATH\Views\kerukunan\v_kerukunan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahun', 'APPPATH\\Views\\kerukunan\\v_kerukunan.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(28): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:11:50 --> Undefined variable $tahun
+in APPPATH\Views\kerukunan\v_kerukunan.php on line 19.
+ 1 APPPATH\Views\kerukunan\v_kerukunan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahun', 'APPPATH\\Views\\kerukunan\\v_kerukunan.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(28): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:13:06 --> Undefined variable $kelompok
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 22.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelompok', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:13:24 --> Undefined variable $tahun
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 107.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahun', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 107)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:14:01 --> Undefined array key "nama_kerukunan"
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 26.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kerukunan"', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:15:35 --> Undefined array key "nama_kerukunan"
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 26.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kerukunan"', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-28 12:16:00 --> mysqli_sql_exception: Unknown column 'id_tahun' in 'where clause' in C:\laragon\www\ta-eben-ikt\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\ta-eben-ikt\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\ta-eben-ikt\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\ta-eben-ikt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\ta-eben-ikt\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\ta-eben-ikt\app\Models\ModelKerukunan.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ta-eben-ikt\app\Controllers\Kerukunan.php(40): App\Models\ModelKerukunan->AllDataKelompok('2')
+#6 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+#7 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+#8 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ta-eben-ikt\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-28 12:16:00 --> Unknown column 'id_tahun' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = :id_tahun:', [...], false)
+ 5 APPPATH\Models\ModelKerukunan.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Kerukunan.php(40): App\Models\ModelKerukunan->AllDataKelompok('2')
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-28 12:16:55 --> mysqli_sql_exception: Unknown column 'id_tahun' in 'where clause' in C:\laragon\www\ta-eben-ikt\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\ta-eben-ikt\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\ta-eben-ikt\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\ta-eben-ikt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\ta-eben-ikt\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\ta-eben-ikt\app\Models\ModelKerukunan.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ta-eben-ikt\app\Controllers\Kerukunan.php(40): App\Models\ModelKerukunan->AllDataKelompok('2')
+#6 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+#7 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+#8 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ta-eben-ikt\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-28 12:16:55 --> Unknown column 'id_tahun' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = :id_tahun:', [...], false)
+ 5 APPPATH\Models\ModelKerukunan.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Kerukunan.php(40): App\Models\ModelKerukunan->AllDataKelompok('2')
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-28 12:18:12 --> mysqli_sql_exception: Unknown column 'id_tahun' in 'where clause' in C:\laragon\www\ta-eben-ikt\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\ta-eben-ikt\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\ta-eben-ikt\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\ta-eben-ikt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\ta-eben-ikt\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\ta-eben-ikt\app\Models\ModelKerukunan.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ta-eben-ikt\app\Controllers\Kerukunan.php(40): App\Models\ModelKerukunan->AllDataKelompok('2')
+#6 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+#7 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+#8 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ta-eben-ikt\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-28 12:18:12 --> Unknown column 'id_tahun' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = :id_tahun:', [...], false)
+ 5 APPPATH\Models\ModelKerukunan.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Kerukunan.php(40): App\Models\ModelKerukunan->AllDataKelompok('2')
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-28 12:25:43 --> mysqli_sql_exception: Unknown column 'id_tahun' in 'where clause' in C:\laragon\www\ta-eben-ikt\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\ta-eben-ikt\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\ta-eben-ikt\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\ta-eben-ikt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\ta-eben-ikt\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\ta-eben-ikt\app\Models\ModelKerukunan.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ta-eben-ikt\app\Controllers\Kerukunan.php(40): App\Models\ModelKerukunan->AllDataKelompok('2')
+#6 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+#7 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+#8 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ta-eben-ikt\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-28 12:25:43 --> Unknown column 'id_tahun' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = :id_tahun:', [...], false)
+ 5 APPPATH\Models\ModelKerukunan.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Kerukunan.php(40): App\Models\ModelKerukunan->AllDataKelompok('2')
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-28 12:25:45 --> mysqli_sql_exception: Unknown column 'id_tahun' in 'where clause' in C:\laragon\www\ta-eben-ikt\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\ta-eben-ikt\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\ta-eben-ikt\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\ta-eben-ikt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\ta-eben-ikt\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\ta-eben-ikt\app\Models\ModelKerukunan.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ta-eben-ikt\app\Controllers\Kerukunan.php(40): App\Models\ModelKerukunan->AllDataKelompok('4')
+#6 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('4')
+#7 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+#8 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ta-eben-ikt\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-28 12:25:45 --> Unknown column 'id_tahun' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = :id_tahun:', [...], false)
+ 5 APPPATH\Models\ModelKerukunan.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Kerukunan.php(40): App\Models\ModelKerukunan->AllDataKelompok('4')
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('4')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-28 12:25:48 --> mysqli_sql_exception: Unknown column 'id_tahun' in 'where clause' in C:\laragon\www\ta-eben-ikt\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\ta-eben-ikt\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\ta-eben-ikt\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\ta-eben-ikt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\ta-eben-ikt\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\ta-eben-ikt\app\Models\ModelKerukunan.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\ta-eben-ikt\app\Controllers\Kerukunan.php(40): App\Models\ModelKerukunan->AllDataKelompok('2')
+#6 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+#7 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+#8 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ta-eben-ikt\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-28 12:25:48 --> Unknown column 'id_tahun' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_anggota_kerukunan`
+WHERE `id_tahun` = :id_tahun:', [...], false)
+ 5 APPPATH\Models\ModelKerukunan.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Kerukunan.php(40): App\Models\ModelKerukunan->AllDataKelompok('2')
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:30:22 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kerukunan.php(40): CodeIgniter\Model->__call('AllDataKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:30:53 --> Undefined variable $tahun
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 107.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahun', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 107)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:32:20 --> Undefined variable $tahun
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 107.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahun', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 107)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:32:21 --> Undefined variable $tahun
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 107.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahun', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 107)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:32:31 --> Undefined variable $kelompok
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 124.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelompok', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:33:06 --> Undefined variable $kerukunan
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 124.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kerukunan', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:37:02 --> Undefined variable $kerukunan
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 124.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kerukunan', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:37:03 --> Undefined variable $kerukunan
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 124.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kerukunan', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:37:03 --> Undefined variable $kerukunan
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 124.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kerukunan', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:37:49 --> Undefined variable $AnggotaKerukunan
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 124.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AnggotaKerukunan', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:38:03 --> Undefined variable $Anggota
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 124.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Anggota', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:38:30 --> Undefined variable $Kerukunan
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 124.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Kerukunan', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:38:31 --> Undefined variable $Kerukunan
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 124.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Kerukunan', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:38:31 --> Undefined variable $Kerukunan
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 124.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Kerukunan', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:39:05 --> Undefined variable $Kerukunan
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 124.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Kerukunan', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:39:05 --> Undefined variable $Kerukunan
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 124.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Kerukunan', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:39:05 --> Undefined variable $Kerukunan
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 124.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Kerukunan', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-28 12:47:42 --> mysqli_sql_exception: Column 'nama_kerukunan' cannot be null in C:\laragon\www\ta-eben-ikt\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\ta-eben-ikt\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\ta-eben-ikt\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\ta-eben-ikt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\ta-eben-ikt\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\ta-eben-ikt\app\Models\ModelKerukunan.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\ta-eben-ikt\app\Controllers\Kerukunan.php(62): App\Models\ModelKerukunan->InsertKerukunan(Array)
+#6 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(904): App\Controllers\Kerukunan->InsertKerukunan()
+#7 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+#8 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ta-eben-ikt\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-28 12:47:42 --> Column 'nama_kerukunan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_kerukunan` (`id_tahun`, `nama_kerukunan`) VALUES (\'2\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kerukunan` (`id_tahun`, `nama_kerukunan`) VALUES (\'2\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kerukunan` (`id_tahun`, `nama_kerukunan`) VALUES (\'2\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kerukunan` (`id_tahun`, `nama_kerukunan`) VALUES (:id_tahun:, :nama_kerukunan:)', [...], false)
+ 5 APPPATH\Models\ModelKerukunan.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Kerukunan.php(62): App\Models\ModelKerukunan->InsertKerukunan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->InsertKerukunan()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-28 12:48:20 --> mysqli_sql_exception: Column 'nama_kerukunan' cannot be null in C:\laragon\www\ta-eben-ikt\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\ta-eben-ikt\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\ta-eben-ikt\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\ta-eben-ikt\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\ta-eben-ikt\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\ta-eben-ikt\app\Models\ModelKerukunan.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\ta-eben-ikt\app\Controllers\Kerukunan.php(62): App\Models\ModelKerukunan->InsertKerukunan(Array)
+#6 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(904): App\Controllers\Kerukunan->InsertKerukunan()
+#7 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+#8 C:\laragon\www\ta-eben-ikt\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ta-eben-ikt\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-28 12:48:20 --> Column 'nama_kerukunan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_kerukunan` (`id_tahun`, `nama_kerukunan`) VALUES (\'2\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kerukunan` (`id_tahun`, `nama_kerukunan`) VALUES (\'2\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kerukunan` (`id_tahun`, `nama_kerukunan`) VALUES (\'2\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kerukunan` (`id_tahun`, `nama_kerukunan`) VALUES (:id_tahun:, :nama_kerukunan:)', [...], false)
+ 5 APPPATH\Models\ModelKerukunan.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Kerukunan.php(62): App\Models\ModelKerukunan->InsertKerukunan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->InsertKerukunan()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:49:14 --> Undefined array key "id_anggota"
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 74.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_anggota"', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 74)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:51:01 --> Undefined variable $kerukunan
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 119.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kerukunan', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 119)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 12:56:00 --> Undefined variable $kerukunan
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 22.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kerukunan', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 14:59:26 --> Undefined variable $kerukunan
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 22.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kerukunan', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 15:00:33 --> Undefined variable $AnggotaKerukunan
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 22.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AnggotaKerukunan', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 15:01:02 --> Undefined array key "id_anggota"
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 46.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_anggota"', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 15:01:23 --> Undefined array key "id_anggota"
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 46.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_anggota"', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 15:02:24 --> Undefined variable $tahun
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 102.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahun', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 102)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 15:04:06 --> Undefined variable $kelompok
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 119.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelompok', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 119)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 15:04:52 --> Undefined array key "id_kelompok"
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 145.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kelompok"', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 145)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 15:34:35 --> Undefined array key "nama_kerukunan"
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 61.
+ 1 APPPATH\Views\kerukunan\v_anggota_kerukunan.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kerukunan"', 'APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kerukunan\\v_anggota_kerukunan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 5 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Kerukunan.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->AnggotaKerukunan('2')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 15:35:16 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kerukunan.php(86): CodeIgniter\Model->__call('DeletePeserta', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Kerukunan->DeleteAnggota('2', '2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kerukunan))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 16:02:50 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\DataKerukunan.php(86): CodeIgniter\Model->__call('DeletePeserta', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DataKerukunan->DeleteAnggota('2', '2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKerukunan))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 16:03:29 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\DataKerukunan.php(86): CodeIgniter\Model->__call('DeletePeserta', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DataKerukunan->DeleteAnggota('2', '2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKerukunan))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 16:03:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\DataKerukunan.php(86): CodeIgniter\Model->__call('DeletePeserta', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DataKerukunan->DeleteAnggota('2', '3')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKerukunan))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 16:04:37 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\DataKerukunan.php(86): CodeIgniter\Model->__call('DeletePeserta', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DataKerukunan->DeleteAnggota('2', '3')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKerukunan))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 16:04:38 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\DataKerukunan.php(86): CodeIgniter\Model->__call('DeletePeserta', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DataKerukunan->DeleteAnggota('2', '3')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKerukunan))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 16:04:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\DataKerukunan.php(86): CodeIgniter\Model->__call('DeletePeserta', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DataKerukunan->DeleteAnggota('2', '3')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKerukunan))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 16:04:53 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\DataKerukunan.php(86): CodeIgniter\Model->__call('DeletePeserta', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DataKerukunan->DeleteAnggota('2', '3')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKerukunan))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 16:04:55 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\DataKerukunan.php(86): CodeIgniter\Model->__call('DeletePeserta', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DataKerukunan->DeleteAnggota('2', '3')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKerukunan))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 16:05:14 --> Unmatched '}'
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 74.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 3 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\DataKerukunan.php(42): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DataKerukunan->AnggotaKerukunan('2')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKerukunan))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 16:05:14 --> Unmatched '}'
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 74.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 3 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\DataKerukunan.php(42): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DataKerukunan->AnggotaKerukunan('2')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKerukunan))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 16:05:15 --> Unmatched '}'
+in APPPATH\Views\kerukunan\v_anggota_kerukunan.php on line 74.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kerukunan/v_anggota_kerukunan', [], true)
+ 3 APPPATH\Views\v_template_admin.php(327): view('kerukunan/v_anggota_kerukunan')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\DataKerukunan.php(42): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DataKerukunan->AnggotaKerukunan('2')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKerukunan))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

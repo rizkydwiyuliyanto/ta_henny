@@ -1,0 +1,6 @@
+CRITICAL - 2023-10-09 22:18:03 --> Class "App\Models\ModelWilayah" not found
+in APPPATH\Controllers\DataWilayah.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\DataWilayah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
